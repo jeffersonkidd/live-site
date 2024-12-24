@@ -1,0 +1,107 @@
+:root {
+    --primary: #038391;
+    --primary-light: #04C8DE;
+    --secondary: #FFAE00;
+    --secordary-dark: #91650a;
+    --accent: #de351b;
+    --accent-dark: #911c0a;
+    --black: #001214;
+    --white: #EBFDFF;
+    --linear-gradient: linear-gradient(180deg, #002D37 0%, #049FB1 78.13%, #E2E2E2 100%);
+}
+
+html, * {
+/*  outline: 1px solid red;  */
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--linear-gradient);
+    font-family: 'Special Elite', cursive;
+    min-height: 100vh;
+    margin: auto;
+}
+
+/* HEADER */
+
+header {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-sq {
+    margin-top: 32px;
+    margin-bottom: 8px;
+    width: 160px;
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 52px;
+    text-shadow: 
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,  
+    -1px  1px 0 #000,  
+     1px  1px 0 #000; 
+    font-family: Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+/* MAIN */
+
+main {
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-button {
+    background-color: var(--secondary);
+    color: var(--black);
+    display: flex-item;
+    padding-top: 28px;
+    padding-bottom: 24px;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 22px;
+    line-height: 0px; 
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    width: 280px; 
+    transition: background 0.3s;
+}
+
+.link-button:hover {
+    background: var(--white);
+}
+
+/* FOOTER */
+
+footer {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    color: var(--white);
+    text-align: center;
+}
