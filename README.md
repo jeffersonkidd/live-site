@@ -16,3 +16,7 @@ Jeffersonkidd.com serves as the personal website of Jefferson Kidd, providing vi
   - HTML5
   - CSS3
   - JavaScript
+
+---
+
+![Creative Commons License](https://licensebuttons.net/l/by/4.0/88x31.png) This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).</p><div>
